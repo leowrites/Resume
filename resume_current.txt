@@ -1,0 +1,54 @@
+LEO LIU
+(778)990-6015 | leo@liuwork.ca | linkedin.com/in/siqiliu- | github.com/leowrites | liuwork.ca
+
+EDUCATION
+=========
+BSc Computer Science, University of Toronto                                Expected May 2026
+GPA: 3.95/4.0                                                             Dean's List
+
+Courses: Compilers & Interpreters, Research in ML Compiler with MLIR, Computer Architecture, Operating Systems, Parallel Programming, Data Structures and Algorithms, Computer Networks, Software Design, Intro to ML, Databases
+
+WORK EXPERIENCE
+===============
+ParaMathics                                                               Toronto, ON
+Undergraduate Researcher                                                   May 2025 -- Present
+
+• Contributed to 2:4 sparsity integration for OpenAI's Triton compiler, developing mixed-tile kernels and achieving up to 30% throughput improvements through extensive benchmarking and autotuning configuration optimization
+• Extended Triton's autotuner by modifying kernel argument handling and caching mechanisms, enabling optimal tile size discovery across varying sparsity levels and matrix dimensions
+• Debugged critical kernel crashes using MLIR dumps and Triton device prints, identifying tensor decomposition issues in the rewrite pass where scf.if operation users weren't properly handled with decomposed tensors
+• Experimented launching separate sparse and dense tile kernels for the same output tile, achieving up to 8 performance gains for specific matrix configurations
+
+Mozilla                                                                    Toronto, ON
+Software Engineer Intern                                                   May 2025 -- Present
+
+• Engineered Enhanced Tracking Protection flexibility options for Firefox Desktop and Android, implementing opt-in exception lists for ETP Strict mode that reduced over 1,000+ site-breaking issues while maintaining privacy protection
+• Built internal WebCompat debugging tool using XPCOM interfaces and nsI browser APIs, enabling QA teams to dynamically toggle tracker exceptions and accelerate root-cause analysis of site compatibility failures
+
+Konrad                                                                    Toronto, ON
+Software Development Intern                                               May 2024 -- Aug 2024
+
+• Owned the backend development of an internal employee gaming leaderboard, designing and implementing the core system architecture and database schema
+• Developed a daily data ingestion pipeline integrating 4 gaming platform APIs to automatically fetch and aggregate game statistics for over 500 employees, enabling real-time leaderboard functionality
+• Optimized API efficiency by implementing GraphQL resolvers with Apollo Express, reducing complex nested query latency from 600ms to 150ms by eliminating request waterfalls, achieving 75% faster data fetching
+• Mitigated N+1 database query problems using Prisma's dataloader patterns and query batching, significantly improving database performance for nested entity relationships
+
+RELEVANT PROJECTS
+=================
+
+Particle Simulation Parallelization & Optimization | C, OpenMP, OpenMPI
+
+• Optimized sequential particle simulation for 160,000 particles using binning, static arrays, and cache-aware algorithms, achieving 2.94x performance improvement over baseline on SciNet HPC cluster
+• Parallelized 90% of sequential code using OpenMP with static decomposition and uniform data partitioning, reducing runtime to 2 seconds and achieving 9x total speedup over baseline
+• Implemented MPI-based distributed computing with non-blocking communication and load balancing optimization, achieving 0.7 strong scaling efficiency and 0.76 weak scaling efficiency
+
+MiniC Compiler | C++, LLVM
+
+• Built complete C compiler in C++ supporting primitive types and arrays, implementing lexical analysis, parsing, semantic analysis, and LLVM IR code generation
+• Implemented custom optimization passes including redundant global load elimination and loop-aware load analysis using LLVM's loop analysis framework, significantly improving performance for global variable-heavy programs
+• Generated optimized LLVM IR with mem2reg promotion pass, reducing alloca instructions and enabling further downstream optimizations through the LLVM optimization pipeline
+
+TECHNICAL SKILLS
+================
+Languages: C++, C, Python, TypeScript, SQL
+Systems & Tools: LLVM/MLIR, XPCOM, Nsight Compute, Git, Linux/Unix, Vim
+Frameworks: Triton, React.js, Node.js, Express.js

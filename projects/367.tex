@@ -1,0 +1,11 @@
+\resumeProjectHeading
+{\textbf{Particle Simulation Parallelization \& Optimization} $|$ \emph{C, OpenMP, OpenMPI}}{}
+\resumeItemListStart
+    % \resumeItem{Measured cache utlization using perf to guide the optimization process}
+    \resumeItem{Experimented with different optimization techniques such as binning, static arrays, and bucket sort to decrease sequential runtime for simulating 160,000 particles on SciNet, achieving a 2.94x increase relative to baseline}
+    \resumeItem{Leveraged OpenMP to parallize 90\% of the sequential code using static decomposition and uniform partitioning of data, further reducing the runtime to 2 seconds and achieving a performance improvement of 9x}
+    % \resumeItem{Experimented with OpenMPI using techniques such non-blocking send/receive and different bin sizes to maximize communication/computation ratio, reduced communications to only when necessary, and profiled individual node runtime to identify the critical path and ensuring equal load balance, achieving an average strong scaling efficiency of 0.7 and weak scaling efficiency of 0.76}
+    % \resumeItem{Established a sequential baseline by optimizing the particle simulation through binning and cache-aware code}
+    % \resumeItem{Achieved further a 9x speed up relative to baseline through leveraging 16 cores and parallelizing 90\% of the sequential code with OpenMP on SciNet}
+    % \resumeItem{Achieved an average strong scaling of 0.57 and a weak scaling of 0.63}
+\resumeItemListEnd
